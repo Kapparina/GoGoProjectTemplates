@@ -1,0 +1,11 @@
+### local Hello
+GET {{localHost}}/api/CreateZipFile/
+Content-Type: application/json
+
+< ../CreateZipFile/test-body.json
+
+### remote Hello
+GET {{remoteHost}}/api/CreateZipFile/
+Content-Type: application/json
+x-functions-key: {{functionKey}}
+
