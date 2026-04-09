@@ -8,17 +8,17 @@ folder in the repository root represents an individual Go module that can be use
 
 The **base repository** itself is **not intended to be used with `gonew`**. Instead, only the individual folders within
 the repository root (each containing its own Go module) are designed to be used as templates. If you want to contribute
-or customize the templates, you can clone this repository. Otherwise, use `gonew` to initialize new projects based on
+or customise the templates, you can clone this repository. Otherwise, use `gonew` to initialise new projects based on
 the specific template folders.
 
 ## Features
 
 - **Template Structure:** Each folder in the repository is a self-contained Go module designed for a specific purpose (
   e.g., CLI application, microservice).
-- **Optimized for `gonew`:** Quickly initialize new projects by selecting the desired template folder.
-- **Customizable:** Clone the repository to modify or extend the templates for specific use cases.
+- **Optimised for `gonew`:** Quickly initialise new projects by selecting the desired template folder.
+- **Customisable:** Clone the repository to modify or extend the templates for specific use cases.
 - **Best Practices Included:** Each template follows Go development standards, including dependency management and
-  project organization.
+  project organisation.
 
 ## Requirements
 
@@ -35,8 +35,8 @@ go install golang.org/x/tools/cmd/gonew@latest
 
 ## Using the Templates
 
-1. Choose the template folder that suits your project (e.g., `cli-template`, `microservice-template`).
-2. Use `gonew` to initialize a new project based on that template:
+1. Choose the template folder that suits your project (e.g. `AzureTemplate`).
+2. Use `gonew` to initialise a new project based on that template:
 
    ```bash
    gonew init <module_name> GoGoProjectTemplates/<template_name> [options]
@@ -54,9 +54,9 @@ go install golang.org/x/tools/cmd/gonew@latest
 
 4. Start building your project based on the selected template!
 
-## Customization and Contribution
+## Customisation and Contribution
 
-If you'd like to customize the templates or contribute new ones, you can clone this repository:
+If you'd like to customise the templates or contribute new ones, you can clone this repository:
 
 ```bash
 git clone <repository_url>
