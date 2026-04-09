@@ -39,17 +39,18 @@ go install golang.org/x/tools/cmd/gonew@latest
 2. Use `gonew` to initialise a new project based on that template:
 
    ```bash
-   gonew init <module_name> GoGoProjectTemplates/<template_name> [options]
+   gonew github.com/kapparina/GoGoProjectTemplates/<template_name>@latest <module_name>/<directory_name>
    ```
 
    Replace:
+    - `<template_name>` with the name of the module/template in the repository root (e.g. `AzureTemplate`).
     - `<module_name>` with the desired name of your new Go module.
-    - `<template_name>` with the name of the folder/template in the repository root (e.g., `cli-template`).
+    - `<directory_name>` with the desired name of the directory within your new Go module.
 
 3. Navigate to your new project:
 
    ```bash
-   cd <module_name>
+   cd <directory_name>
    ```
 
 4. Start building your project based on the selected template!
